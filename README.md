@@ -14,4 +14,4 @@ Start the development server
 npm run dev
 ```
 
-Preview: https://Akinfolarin.D3V.netlify.app/
+Preview: https://folafolio.vercel.app

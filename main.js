@@ -45,7 +45,6 @@ let projects = [
     url: 'https://mielexriqueza.com',
   },
 ];
-];
 let aboutCameraPos = {
   x: 0.12,
   y: 0.2,

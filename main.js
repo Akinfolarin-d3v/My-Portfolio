@@ -28,9 +28,14 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/cybria.webp',
-    url: 'https://cybria-blog.netlify.app',
+    image: 'textures/techflux.jpg',
+    url: 'https://tech-flux.vercel.app/',
   },
+  {
+    image: 'textures/xcentod.jpg',
+    url: 'https://www.xcentod.com',
+  },
+  
   {
     image: 'textures/cybria1.jpg',
     url: 'https://cybria-blog.netlify.app',
@@ -39,10 +44,7 @@ let projects = [
     image: 'textures/miele.jpg',
     url: 'https://mielexriqueza.com',
   },
-  {
-    image: 'textures/xcentod.jpg',
-    url: 'https://www.xcentod.com',
-  },
+];
 ];
 let aboutCameraPos = {
   x: 0.12,

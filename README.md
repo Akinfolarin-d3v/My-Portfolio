@@ -14,4 +14,4 @@ Start the development server
 npm run dev
 ```
 
-Preview: https://folafolio.vercel.app
+Preview: https://folafolio.dev

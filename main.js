@@ -27,13 +27,13 @@ let clipNames = [
   'fan_rotation.004',
 ];
 let projects = [
+    {
+    image: 'textures/xcentod.jpg',
+    url: 'https://www.xcentod.com',
+  },
   {
     image: 'textures/techflux.jpg',
     url: 'https://tech-flux.vercel.app/',
-  },
-  {
-    image: 'textures/xcentod.jpg',
-    url: 'https://www.xcentod.com',
   },
   {
     image: 'textures/miele.jpg',

@@ -35,11 +35,6 @@ let projects = [
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',
   },
-  
-  {
-    image: 'textures/cybria1.jpg',
-    url: 'https://cybria-blog.netlify.app',
-  },
   {
     image: 'textures/miele.jpg',
     url: 'https://mielexriqueza.com',

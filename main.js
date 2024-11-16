@@ -27,6 +27,10 @@ let clipNames = [
   'fan_rotation.004',
 ];
 let projects = [
+     {
+    image: 'textures/chopexpress.jpg',
+    url: 'https://chopexpress.netlify.app/',
+  },
     {
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',

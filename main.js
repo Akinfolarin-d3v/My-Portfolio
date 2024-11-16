@@ -334,7 +334,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Techpreneur / Software Developer / Gamer         Toggle switch for day/night',
+      'Techpreneur / Software Developer / SimRacer         Toggle switch for day/night',
       {
         font: font,
         size: 0.018,

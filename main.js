@@ -29,7 +29,7 @@ let clipNames = [
 let projects = [
   {
     image: 'textures/yitadengineering.png',
-    url: 'https://https://yitadengineering.netlify.app',
+    url: 'https://yitadengineering.netlify.app',
   },
      {
     image: 'textures/chopexpress.jpg',

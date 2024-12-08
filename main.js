@@ -27,6 +27,10 @@ let clipNames = [
   'fan_rotation.004',
 ];
 let projects = [
+  {
+    image: 'textures/yitadengineering.png',
+    url: 'https://https://yitadengineering.netlify.app',
+  },
      {
     image: 'textures/chopexpress.jpg',
     url: 'https://chopexpress.netlify.app/',
@@ -43,6 +47,7 @@ let projects = [
     image: 'textures/miele.jpg',
     url: 'https://mielexriqueza.com',
   },
+  
 ];
 let aboutCameraPos = {
   x: 0.12,

@@ -28,7 +28,7 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/yitadengineering.png',
+    image: 'textures/chopexpress.jpg',
     url: 'https://flavorsofflora.netlify.app',
   },
   {

@@ -29,7 +29,7 @@ let clipNames = [
 let projects = [
   {
     image: 'textures/yitadengineering.png',
-    url: 'https://flavoursofflora.netlify.app',
+    url: 'https://flavorsofflora.netlify.app',
   },
   {
     image: 'textures/yitadengineering.png',

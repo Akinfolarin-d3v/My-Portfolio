@@ -39,14 +39,15 @@ let projects = [
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',
   },
+   {
+    image: 'textures/chopexpress.jpg',
+    url: 'https://chopexpress.netlify.app/',
+  },
   {
     image: 'textures/yitadengineering.png',
     url: 'https://yitadengineering.netlify.app',
   },
-     {
-    image: 'textures/chopexpress.jpg',
-    url: 'https://chopexpress.netlify.app/',
-  },
+  
   
 ];
 let aboutCameraPos = {

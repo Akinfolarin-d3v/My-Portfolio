@@ -47,10 +47,7 @@ let projects = [
     image: 'textures/chopexpress.jpg',
     url: 'https://chopexpress.netlify.app/',
   },
-    {
-    image: 'textures/xcentod.jpg',
-    url: 'https://www.xcentod.com',
-  },
+  
 ];
 let aboutCameraPos = {
   x: 0.12,

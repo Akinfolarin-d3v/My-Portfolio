@@ -36,6 +36,10 @@ let projects = [
     url: 'https://flavorsofflora.netlify.app',
   },
   {
+    image: 'textures/xcentod.jpg',
+    url: 'https://www.xcentod.com',
+  },
+  {
     image: 'textures/yitadengineering.png',
     url: 'https://yitadengineering.netlify.app',
   },

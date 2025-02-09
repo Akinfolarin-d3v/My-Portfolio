@@ -44,10 +44,13 @@ let projects = [
     url: 'https://www.xcentod.com',
   },
   {
-    image: 'textures/byte.jpg',
-    url: 'https://bytebuildersng.netlify.app/',
+    image: 'textures/techflux.jpg',
+    url: 'https://tech-flux.vercel.app/',
   },
-  
+  {
+    image: 'textures/miele.jpg',
+    url: 'https://mielexriqueza.com',
+  },
   
 ];
 let aboutCameraPos = {

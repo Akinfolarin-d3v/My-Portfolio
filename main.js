@@ -47,6 +47,10 @@ let projects = [
     image: 'textures/yitadengineering.png',
     url: 'https://yitadengineering.netlify.app',
   },
+  {
+    image: 'textures/yitadengineering.png',
+    url: 'https://yitadengineering.netlify.app',
+  },
   
   
 ];

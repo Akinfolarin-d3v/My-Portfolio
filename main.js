@@ -28,6 +28,10 @@ let clipNames = [
 ];
 let projects = [
   {
+    image: 'textures/byte.jpg',
+    url: 'https://https://bytebuildersng.netlify.app',
+  },
+  {
     image: 'textures/flora.png',
     url: 'https://flavorsofflora.netlify.app',
   },

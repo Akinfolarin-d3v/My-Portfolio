@@ -28,6 +28,10 @@ let clipNames = [
 ];
 let projects = [
   {
+    image: 'textures/byte.jpg',
+    url: 'https://bytebuildersng.netlify.app/',
+  },
+  {
     image: 'textures/flora.png',
     url: 'https://flavorsofflora.netlify.app',
   },
@@ -43,15 +47,6 @@ let projects = [
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',
   },
-  {
-    image: 'textures/techflux.jpg',
-    url: 'https://tech-flux.vercel.app/',
-  },
-  {
-    image: 'textures/miele.jpg',
-    url: 'https://mielexriqueza.com',
-  },
-  
 ];
 let aboutCameraPos = {
   x: 0.12,

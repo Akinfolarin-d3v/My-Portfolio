@@ -39,6 +39,10 @@ let projects = [
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',
   },
+  {
+    image: 'textures/turf.png',
+    url: 'https://https://turfcentral.netlify.app/',
+  },
    {
     image: 'textures/chopexpress.jpg',
     url: 'https://chopexpress.netlify.app/',

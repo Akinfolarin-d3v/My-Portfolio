@@ -41,7 +41,7 @@ let projects = [
   },
   {
     image: 'textures/turf.png',
-    url: 'https://https://turfcentral.netlify.app/',
+    url: 'https://turfcentral.netlify.app/',
   },
    {
     image: 'textures/chopexpress.jpg',

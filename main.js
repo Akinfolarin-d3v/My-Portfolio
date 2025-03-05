@@ -48,12 +48,12 @@ let projects = [
     url: 'https://chopexpress.netlify.app/',
   },
   {
-    image: 'textures/yitadengineering.png',
-    url: 'https://yitadengineering.netlify.app',
+    image: 'textures/chopexpress.jpg',
+    url: 'https:/chopexpress.netlify.app',
   },
   {
-    image: 'textures/yitadengineering.png',
-    url: 'https://yitadengineering.netlify.app',
+    image: 'textures/chopexpress.jpg',
+    url: 'https:/chopexpress.netlify.app',
   },
   
   

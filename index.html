@@ -22,7 +22,7 @@
       property="og:description"
       content="I am a skilled software developer with five years of experience and a diploma in Software Engineering from the National Institute of Information Technology. Proficient in Python, Java, Android Studio, JavaScript, and SQL, I specialize in frameworks like React, Node.js, and Three.js.
 
-      My background in both Software and Computer Engineering equips me with a strong foundation in software development and hardware concepts. With a knack for problem-solving, quick learning ability, and effective communication skills, I am eager to contribute to dynamic software development teams.
+      My background in Software and Computer Engineering equips me with a strong foundation in software development and hardware concepts. With a knack for problem-solving, quick learning ability, and effective communication skills, I am eager to contribute to dynamic software development teams.
       
       I am enthusiastic about exploring new opportunities in software development and remain open to acquiring new skills. Let's connect to discuss how I can contribute to your team."
     />
@@ -69,6 +69,57 @@
     </script>
   </head>
   <body class="light-theme">
+    <style>
+        /* Modal styles */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 80%;
+            text-align: center;
+            font-size: 18px;
+            color: black;
+        }
+
+        .modal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <div id="intro-modal" class="modal">
+        <div class="modal-content">
+            <p>
+Navigate through the room using your thumb or mouse. Flick the switch on the wall to turn the light on or off. You can touch the book on the table to read about me or select it from the right side of the page. My projects can also be found on the right side; below it, you’ll find how to contact me.            </p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const modal = document.getElementById("intro-modal");
+            modal.classList.add("show");
+            
+            setTimeout(() => {
+                modal.classList.remove("show");
+            }, 10000);
+        });
+    </script>
     <div class="experience">
       <canvas class="experience-canvas"></canvas>
     </div>

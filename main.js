@@ -41,22 +41,16 @@ let projects = [
   },
   {
     image: 'textures/turf.png',
-    url: 'https://turfcentral.netlify.app/',
+    url: 'https://https://turfcentral.netlify.app',
   },
    {
     image: 'textures/chopexpress.jpg',
-    url: 'https://chopexpress.netlify.app/',
+    url: 'https://chopexpress.netlify.app',
   },
   {
-    image: 'textures/chopexpress.jpg',
-    url: 'https:/chopexpress.netlify.app',
+    image: 'textures/yitadengineering.png',
+    url: 'https://yitadengineering.netlify.app',
   },
-  {
-    image: 'textures/chopexpress.jpg',
-    url: 'https:/chopexpress.netlify.app',
-  },
-  
-  
 ];
 let aboutCameraPos = {
   x: 0.12,
@@ -348,7 +342,7 @@ function loadIntroText() {
       new THREE.MeshPhongMaterial({ color: 0xffffff }),
     ];
     const subTitleGeo = new TextGeometry(
-      'Techpreneur / Software Developer / SimRacer      Toggle switch for day/night',
+      'Techpreneur / Software Developer / Gamer         Toggle switch for day/night',
       {
         font: font,
         size: 0.018,

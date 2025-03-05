@@ -13,5 +13,10 @@ Start the development server
 ```sh
 npm run dev
 ```
+Preview: 
 
-Preview: https://folafolio.dev
+```sh
+https://folafolio.dev
+```
+
+

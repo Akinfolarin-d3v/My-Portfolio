@@ -28,11 +28,11 @@ let clipNames = [
 ];
 let projects = [
   {
-    image: 'textures/spt.jpg',
+    image: 'textures/spt.png',
     url: 'https://sptsoulloops.netlify.app/',
   },
   {
-    image: 'textures/reachjtd.jpg',
+    image: 'textures/reachjtd.png',
     url: 'https://reachjtd.netlify.app/',
   },
   {

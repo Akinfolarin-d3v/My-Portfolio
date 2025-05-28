@@ -608,66 +608,69 @@ function aboutMenuListener() {
 }
 
 function projectsMenuListener() {
-  // create project planes with textures
+  const columns  = 3;
+  const spacingX = 0.8;
+  const startX   = 0.3;
+  const startY   = 1;
+  const spacingY = 0.5;
+  const z        = -1.15;
+
+  // create planes
   projects.forEach((project, i) => {
-    const colIndex = i % 3 === 0 ? 0 : 1;
-    const rowIndex = Math.floor(i / 3);
-    const geometry = new THREE.PlaneGeometry(0.71, 0.4);
-    const material = new THREE.MeshBasicMaterial({
-      color: 0xffffff,
+    const col = i % columns;               // 0,1,2,0,1,2...
+    const row = Math.floor(i / columns);   // 0,0,0,1,1,1...
+
+    const geo  = new THREE.PlaneGeometry(0.71, 0.4);
+    const mat  = new THREE.MeshBasicMaterial({
       map: new THREE.TextureLoader().load(project.image),
       transparent: true,
-      opacity: 0.0,
+      opacity: 0
     });
-    const projectPlane = new THREE.Mesh(geometry, material);
-    projectPlane.name = 'project';
-    projectPlane.userData = {
-      url: project.url,
-    };
-    projectPlane.position.set(
-      0.3 + i * 0.8 * colIndex,
-      1 - rowIndex * 0.5,
-      -1.15
+    const mesh = new THREE.Mesh(geo, mat);
+    mesh.name        = 'project';
+    mesh.userData    = { url: project.url };
+    mesh.position.set(
+      startX + col * spacingX,
+      startY - row * spacingY,
+      z
     );
-    projectPlane.scale.set(0, 0, 0);
-    // mesh & y vars needed for animation
-    projects[i].mesh = projectPlane;
-    projects[i].y = 1 - rowIndex * 0.5;
-    scene.add(projectPlane);
+    mesh.scale.set(0,0,0);
+
+    // store for later
+    project.mesh = mesh;
+    project.y    = mesh.position.y;
+
+    scene.add(mesh);
   });
 
-  document
-    .getElementById('projects-menu')
-    .addEventListener('click', function (e) {
-      e.preventDefault();
-      disableOrbitControls();
-      resetBookCover();
-      gsap.to(camera.position, {
-        ...projectsCameraPos,
-        duration: 1.5,
-      });
-      gsap.to(camera.rotation, {
-        ...projectsCameraRot,
-        duration: 1.5,
-      });
-      gsap.delayedCall(1.5, enableCloseBtn);
+  // click listener to fly camera & fade them in
+  document.getElementById('projects-menu').addEventListener('click', e => {
+    e.preventDefault();
+    disableOrbitControls();
+    resetBookCover();
 
-      // animate & show project items
-      projects.forEach((project, i) => {
-        project.mesh.scale.set(1, 1, 1);
-        gsap.to(project.mesh.material, {
-          opacity: 1,
-          duration: 1.5,
-          delay: 1.5 + i * 0.1,
-        });
-        gsap.to(project.mesh.position, {
-          y: project.y + 0.05,
-          duration: 1,
-          delay: 1.5 + i * 0.1,
-        });
+    // move camera…
+    gsap.to(camera.position, { ...projectsCameraPos, duration: 1.5 });
+    gsap.to(camera.rotation, { ...projectsCameraRot, duration: 1.5 });
+    gsap.delayedCall(1.5, enableCloseBtn);
+
+    // animate in
+    projects.forEach((p, i) => {
+      p.mesh.scale.set(1,1,1);
+      gsap.to(p.mesh.material, {
+        opacity: 1,
+        duration: 1.5,
+        delay: 1.5 + i * 0.1
+      });
+      gsap.to(p.mesh.position, {
+        y: p.y + 0.05,
+        duration: 1,
+        delay: 1.5 + i * 0.1
       });
     });
+  });
 }
+
 
 function init3DWorldClickListeners() {
   const mousePosition = new THREE.Vector2();

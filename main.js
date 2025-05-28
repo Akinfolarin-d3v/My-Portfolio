@@ -33,7 +33,7 @@ let projects = [
   },
   {
     image: 'textures/reachjtd.png',
-    url: 'https://reachjtd.netlify.app/',
+    url: 'https://reachjtd.com/',
   },
   {
     image: 'textures/flora.png',

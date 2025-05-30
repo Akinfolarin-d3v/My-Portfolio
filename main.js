@@ -36,21 +36,26 @@ let projects = [
     url: 'https://reachjtd.com',
   },
   {
-    image: 'textures/flora.png',
-    url: 'https://flavorsofflora.netlify.app',
+    image: 'textures/angelseye.png',
+    url: 'https://angelseye.netlify.app',
   },
   {
     image: 'textures/xcentod.jpg',
     url: 'https://www.xcentod.com',
   },
   {
-    image: 'textures/turf.png',
-    url: 'https://https://turfcentral.netlify.app',
+    image: 'textures/flora.png',
+    url: 'https://flavorsofflora.netlify.app',
   },
    {
     image: 'textures/chopexpress.jpg',
     url: 'https://chopexpress.netlify.app',
   },
+  {
+    image: 'textures/turf.png',
+    url: 'https://https://turfcentral.netlify.app',
+  },
+  
   {
     image: 'textures/yitadengineering.png',
     url: 'https://yitadengineering.netlify.app',

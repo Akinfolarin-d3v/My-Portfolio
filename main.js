@@ -36,12 +36,8 @@ let projects = [
     url: 'https://reachjtd.com',
   },
   {
-    image: 'textures/angelseye.png',
-    url: 'https://angelseye.netlify.app',
-  },
-  {
     image: 'textures/xcentod.jpg',
-    url: 'https://www.xcentod.com',
+    url: 'xcentod.netlify.app',
   },
   {
     image: 'textures/flora.png',
@@ -53,7 +49,7 @@ let projects = [
   },
   {
     image: 'textures/turf.png',
-    url: 'https://https://turfcentral.netlify.app',
+    url: 'turfcentral.netlify.app',
   },
   
   {

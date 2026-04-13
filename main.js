@@ -37,7 +37,7 @@ let projects = [
   },
   {
     image: 'textures/xcentod.jpg',
-    url: 'xcentod.netlify.app',
+    url: 'https://xcentod.netlify.app',
   },
   {
     image: 'textures/flora.png',
@@ -49,9 +49,8 @@ let projects = [
   },
   {
     image: 'textures/turf.png',
-    url: 'turfcentral.netlify.app',
+    url: 'https://turfcentral.netlify.app',
   },
-  
   {
     image: 'textures/yitadengineering.png',
     url: 'https://yitadengineering.netlify.app',

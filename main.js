@@ -45,7 +45,7 @@ let projects = [
   },
    {
     image: 'textures/chopexpress.jpg',
-    url: 'https://chopexpress.netlify.app',
+    url: 'https://chopexpressgh.com',
   },
   {
     image: 'textures/turf.png',

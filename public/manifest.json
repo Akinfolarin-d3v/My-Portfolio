@@ -1,0 +1,15 @@
+{
+  "name": "Akinfolarin.D3V — Portfolio",
+  "short_name": "A.D3V",
+  "description": "Creative developer & techpreneur from Abuja, Nigeria.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06060e",
+  "theme_color": "#dc0000",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/images/favicon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/favicon.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "categories": ["portfolio", "developer", "design"]
+}
